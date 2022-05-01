@@ -24,7 +24,6 @@ namespace _7._Pascal_Triangle
                         currentRow[i] = prevoiousRowSum;
                     }
                 }
-                // TODO: Print triangle
                 currentWidth++;
             }
                 foreach (long[] row in triangle)
